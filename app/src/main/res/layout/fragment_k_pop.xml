@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".KPopFragment">
+
+    <TextView
+        android:id="@+id/tv_artistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist"
+        android:padding="10dp"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_songName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song"
+        android:padding="10dp"
+        android:textSize="40sp" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/et_song"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textSize="28sp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_song"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
